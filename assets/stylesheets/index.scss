@@ -1,0 +1,83 @@
+body {
+}
+
+.menu {
+    border: 1px solid blue;
+    position: fixed;
+    height: 20px;
+    width: 51px;
+    background-color: lightblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menuitems {
+    text-align: center;
+    font-size: 10px;
+}
+.click_for_menu {
+    text-align: center;
+    font-size: 10px;
+}
+
+
+#welcome {
+    text-align: center;
+    bottom: 50;
+    left: 0;
+    right: 0;
+}
+
+.stuff {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.menubox2 {
+    position: relative;
+    border: solid 1px;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.menubox3 {
+    position: relative;
+    border: solid 1px;
+    height: 70%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.menubox4 {
+    position: relative;
+    border: solid 1px;
+    height: 70%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+#container {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 100;
+}
+
+.serverbox {
+    margin: auto;
+    text-align: center;
+}
+.playercount {
+    background-color: lightblue;
+    border: solid 2px blue;
+}

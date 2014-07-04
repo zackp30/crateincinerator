@@ -1,0 +1,17 @@
+.staff {
+    @each $staff in zackp30, fwz_pieman, Gdoom1 {
+        .#{$staff} {
+            position: relative;
+            border: 1px solid orange;
+            padding: 5px;
+                .picture {
+                    text-align: center;
+                }
+            }
+        }
+        position: fixed;
+        border: 1px solid blue;
+        padding: 5px;
+        width: 6cm;
+        top: 10;
+}
